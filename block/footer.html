@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .footer-container {
+            background-color: var(--_c-dark-primary, #1d1f22);
+            color: var(--_c-light-primary, #f1f2f3);
+            padding: 100px;
+            border-top: 8px solid var(--_c-goodbioncs-primary, #58726a);
+        }
+
+        .footer-row {
+            display: flex;
+            justify-content: center;
+            align-content: center
+        }
+
+        .footer-title {
+            font-size: 18px;
+            font-weight: 600
+        }
+
+        .footer-info-links ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0
+        }
+
+        .footer-info-links ul li {
+            margin-top: 20px
+        }
+
+        .footer-info-links ul a {
+            text-decoration: none;
+            color: var(--_c-light-primary, #f1f2f3)
+        }
+
+        .footer-info-links ul a:hover {
+            color: var(--_c-goodbioncs-primary-lighten, #a8bbb5);
+            transition: color .2s ease-in-out
+        }
+
+        .footer-socials {
+            padding-bottom: 40px;
+        }
+
+        .footer-socials ul {
+            list-style: none;
+            margin: 0;
+            padding: 0
+        }
+
+        .footer-socials ul li {
+            display: inline-block;
+            margin-top: 20px
+        }
+
+        .footer-socials ul a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: var(--_c-light-primary, #f1f2f3)
+        }
+
+        .footer-socials ul a:hover {
+            color: var(--_c-goodbioncs-primary-lighten, #a8bbb5);
+            transition: color .2s ease-in-out
+        }
+
+        @media only screen and (max-width: 768px) {
+            .footer-container {
+                padding: 30px
+            }
+
+            .footer-info-links, .footer-socials {
+                text-align: center
+            }
+
+            .footer-socials {
+                margin-top: 30px
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="footer-container" data-v-09884861>
+    <div class="container p-0">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md footer-info-links">
+                <span class="footer-title">INFORMATION</span>
+                <ul>
+                    <li><a href="/i/about" class="">Impersum</a></li>
+                    <li><a href="/i/agb">AGB</a></li>
+                    <li><a href="/i/about#privacy-policy">Datenschutz</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md footer-socials">
+                <span class="footer-title">SOCIALS</span>
+                <ul>
+                    <li>
+                        <a href="tel:+498341101212"><i class="far fa-phone"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@goodbionics.de"><i class="far fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

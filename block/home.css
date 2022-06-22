@@ -1,0 +1,44 @@
+.gb-landing-container {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.goodbionics-section-A h3 {
+    font-size: 80px;
+    line-height: 96px;
+    margin: 30px 0;
+    color: var(--c-primary);
+    font-family: var(--c-font-MontserratLight);
+}
+.goodbionics-section-A p {
+    font-size: 25px;
+    line-height: 36px;
+    margin: 0;
+    color: var(--c-primary);
+    letter-spacing: 7.5px;
+    font-family: var(--c-font-MontserratLight);
+}
+
+.goodbionics-section-B p {
+    font-size: 16px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-primary);
+
+}
+.goodbionics-section-C h3{
+    font-size: 45px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-white);
+}
+.goodbionics-section-C p{
+    font-size: 20px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-white);
+}
+
+
+
+
+
+.opacity-50 {
+    opacity: .5;
+}

@@ -1,0 +1,80 @@
+.aspect-16x9 {
+    aspect-ratio: 16/9;
+}
+@supports not (aspect-ratio: 16 / 5) {
+    .aspect-16x9::before {
+        content: ' ';
+        padding-top: calc(100% / 16 * 9);
+        float: left;
+    }
+}
+.aspect-16x5 {
+    aspect-ratio: 16/5;
+}
+@supports not (aspect-ratio: 16 / 5) {
+    .aspect-16x5::before {
+        content: ' ';
+        padding-top: calc(100% / 16 * 5);
+        float: left;
+    }
+}
+.aspect-1x1 {
+    aspect-ratio: 1/1;
+}
+@supports not (aspect-ratio: 1 / 1) {
+    .aspect-1x1::before {
+        content: ' ';
+        padding-top: calc(100% / 1 * 1);
+        float: left;
+    }
+}
+.aspect-2x1 {
+    aspect-ratio: 2/1;
+}
+@supports not (aspect-ratio: 2 / 1) {
+    .aspect-2x1::before {
+        content: ' ';
+        padding-top: calc(100% / 2 * 1);
+        float: left;
+    }
+}
+.aspect-1x2 {
+    aspect-ratio: 1/2;
+}
+@supports not (aspect-ratio: 1 / 2) {
+    .aspect-1x2::before {
+        content: ' ';
+        padding-top: calc(100% / 1 * 2);
+        float: left;
+    }
+}
+.aspect-3x4 {
+    aspect-ratio: 3/4;
+}
+@supports not (aspect-ratio: 3 / 4) {
+    .aspect-3x4::before {
+        content: ' ';
+        padding-top: calc(100% / 3 * 4);
+        float: left;
+    }
+}
+.aspect-2x3 {
+    aspect-ratio: 2/3;
+}
+@supports not (aspect-ratio: 2 / 3) {
+    .aspect-2x3::before {
+        content: ' ';
+        padding-top: calc(100% / 2 * 3);
+        float: left;
+    }
+}
+.aspect-4x5 {
+    aspect-ratio: 4/5;
+}
+@supports not (aspect-ratio: 4 / 5) {
+    .aspect-4x5::before {
+        content: ' ';
+        padding-top: calc(100% / 4 * 5);
+        float: left;
+    }
+}

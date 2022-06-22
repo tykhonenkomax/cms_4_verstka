@@ -1,0 +1,24 @@
+{
+  "title": "email",
+  "config": {
+    "logo": "./logo.png",
+    "img": "",
+    "from": "goodBIONICS <noreply@goodbionics.com>",
+    "templates": {
+      "reset-password": "forgotpwd",
+      "create-order": "orderplaced"
+    },
+    "titles": {
+      "reset-password": "Ihr neues Passwort für den goodBIONICS.com Onlineshop",
+      "create-order": "Ihr Auftrag ist bei uns eingegangen"
+    },
+    "footer": {
+      "email": "info@goodbionics.com",
+      "lastname": "goodBIONICS Biotechnologie GmbH",
+      "address": "",
+      "city": "",
+      "region": "",
+      "postalcode": ""
+    }
+  }
+}

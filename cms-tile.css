@@ -1,0 +1,16 @@
+.cms-tile {
+    display: block;
+    text-align: center;
+    position: relative;
+    flex: 1;
+    padding: 30px 0;
+}
+
+.cms-tile--with-bg {
+    background: rgba(127,127,127,.1);
+}
+
+.cms-tile--with-icon img {
+    margin: 20px auto;
+    display: block;
+}

@@ -1,0 +1,248 @@
+{
+  "title": "menu",
+  "menu": [
+    {
+      "kind": "link",
+      "classes": "px20",
+      "slug": "good-parts",
+      "href": "/c/good-parts",
+      "title": {
+        "de": "good PARTS"
+      },
+      "items": [
+        {
+          "kind": "container",
+          "classes": "col-md-8",
+          "items": [
+            {
+              "kind": "container",
+              "classes": "col-md-6",
+              "title": {
+                "de": "Kategorie"
+              },
+              "items": [
+                {
+                  "kind": "container",
+                  "classes": "col-md-6",
+                  "items": [
+                    {
+                      "kind": "container",
+                      "classes": "col-md-12",
+                      "items": [
+                        {
+                          "kind": "link",
+                          "classes": "col-md-12",
+                          "slug": "AB",
+                          "href": "/c/good-parts/abutment",
+                          "title": {
+                            "de": "Abutment"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "container",
+                      "classes": "col-md-12",
+                      "items": [
+                        {
+                          "kind": "link",
+                          "classes": "col-md-12",
+                          "slug": "AN",
+                          "href": "/c/good-parts/analoge",
+                          "title": {
+                            "de": "Analoge"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "container",
+                      "classes": "col-md-12",
+                      "items": [
+                        {
+                          "kind": "link",
+                          "classes": "col-md-12",
+                          "slug": "AP",
+                          "href": "/c/good-parts/abformpfosten",
+                          "title": {
+                            "de": "Abformpfosten"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "container",
+                      "classes": "col-md-12",
+                      "items": [
+                        {
+                          "kind": "link",
+                          "classes": "col-md-12",
+                          "slug": "GF",
+                          "href": "/c/good-parts/gingivaformer",
+                          "title": {
+                            "de": "Gingivaformer"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "container",
+                  "classes": "col-md-6",
+                  "items": [
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "KP",
+                      "href": "/c/good-parts/kappen",
+                      "title": {
+                        "de": "Kappen"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "PM",
+                      "href": "/c/good-parts/instrumente",
+                      "title": {
+                        "de": "Instrumente"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "SB",
+                      "href": "/c/good-parts/scanbody",
+                      "title": {
+                        "de": "Scanbody"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "TB",
+                      "href": "/c/good-parts/ti-base",
+                      "title": {
+                        "de": "Ti-Base"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "TB",
+                      "href": "/c/good-parts/schrauben",
+                      "title": {
+                        "de": "Schrauben"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "container",
+              "classes": "col-md-6",
+              "title": {
+                "de": "Hersteller"
+              },
+              "items": [
+                {
+                  "kind": "container",
+                  "classes": "col-md-6",
+                  "items": [
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "Camlog®",
+                      "href": "/c/good-parts?implantManufacturer=Camlog®",
+                      "title": {
+                        "de": "Camlog®"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "Dentsply®%20Sirona",
+                      "href": "/c/good-parts?implantManufacturer=Dentsply®%20Sirona",
+                      "title": {
+                        "de": "Dentsply® Sirona"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "Medentis%20Medical®",
+                      "href": "/c/good-parts?implantManufacturer=Medentis%20Medical®",
+                      "title": {
+                        "de": "Medentis Medical®"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "kind": "container",
+                  "classes": "col-md-6",
+                  "items": [
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "Nobel%20Biocare®",
+                      "href": "/c/good-parts?implantManufacturer=Nobel%20Biocare®",
+                      "title": {
+                        "de": "Nobel Biocare®"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "Straumann®",
+                      "href": "/c/good-parts?implantManufacturer=Straumann®",
+                      "title": {
+                        "de": "Straumann®"
+                      }
+                    },
+                    {
+                      "kind": "link",
+                      "classes": "col-md-12",
+                      "slug": "Zimmer%20Dental®",
+                      "href": "/c/good-parts?implantManufacturer=Zimmer%20Dental®",
+                      "title": {
+                        "de": "Zimmer Dental®"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "container",
+              "classes": "col-md-12 px20 py20",
+              "items": [
+                {
+                  "kind": "link",
+                  "classes": "col-md-12 align-center brdr-top-1 brdr-cl-secondary",
+                  "slug": "AllItems",
+                  "href": "/c/good-parts",
+                  "title": {
+                    "en": "Show all items",
+                    "de": "Alle Artikel anzeigen"
+                  },
+                  "hideForMobile": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "container",
+          "classes": "col-md-4",
+          "title": {
+            "de": ""
+          },
+          "items": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+:root {
+    --_c-goodbioncs-primary: #58726a;
+    --_c-goodbioncs-primary-base: 88,114,106;
+    --_c-goodbioncs-primary-lighten: #a8bbb5;
+    --_c-goodbioncs-primary-darken: #465b54;
+    --_c-goodbioncs-secondary: #a9b9b4;
+    --_c-goodbioncs-secondary-base: 169,185,180;
+    --_c-goodbioncs-secondary-lighten: #bac6c3a;
+    --_c-goodbioncs-secondary-darken: #4f615b;
+
+    --_c-goodbioncs-connect-text: rgb(139, 0, 0);
+    --_c-goodbioncs-connect-bg: rgb(255, 243, 243);
+
+    --_c-goodbioncs-design-text: rgb(88, 120, 164);
+    --_c-goodbioncs-design-bg: rgb(229, 235, 242);
+
+    --_c-goodbioncs-mill-text: rgb(54, 117, 58);
+    --_c-goodbioncs-mill-bg: rgb(245, 255, 247);
+
+    --_c-goodbioncs-print-text: rgb(137, 138, 138);
+    --_c-goodbioncs-print-bg: rgb(243, 242, 242);
+
+    --_c-goodbioncs-font-Montserat-light: "Montserrat" ;
+
+    --c-primary: var(--_c-goodbioncs-primary) !important;
+    --c-primary-base: var(--_c-goodbioncs-primary-base) !important;
+    --c-primary-lighten: var(--_c-goodbioncs-primary-lighten) !important;
+    --c-primary-darken: var(--_c-goodbioncs-primary-darken) !important;
+    --c-primary-variant: var(--_c-goodbioncs-secondary) !important;
+
+    --c-success: var(--_c-goodbioncs-primary) !important;
+    --c-success-base: var(--_c-goodbioncs-primary-base) !important;
+    --c-success-lighten: var(--_c-goodbioncs-primary-lighten) !important;
+    --c-success-darken: var(--_c-goodbioncs-primary-darken) !important;
+    --c-success-variant: var(--_c-goodbioncs-secondary) !important;
+    --c-font-MontserratLight:var(--_c-goodbioncs-font-Montserat-light);
+}
