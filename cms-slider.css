@@ -84,6 +84,11 @@
         left: 0;
     }
 
+
+
+
+
+
     .cms-slider:hover::before, .cms-slider:hover::after {
         display: none;
     }
