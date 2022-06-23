@@ -35,6 +35,39 @@
     color: var(--c-white);
 }
 
+.goodbionics-section-D p{
+    font-size: 16px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-primary);
+}
+
+.goodbionics-section-E h3{
+    font-size: 45px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-white);
+}
+
+.goodbionics-section-E p{
+    font-size: 16px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-white);
+}
+
+
+
+.goodbionics-section-F p{
+    font-size: 45px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-white);
+}
+
+.goodbionics-section-G p{
+    font-size: 16px;
+    font-family: var(--c-font-MontserratLight);
+    color: var(--c-primary);
+    margin-left: 45%;
+}
+
 
 
 
