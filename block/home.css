@@ -1,5 +1,5 @@
 .gb-landing-container {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: var(--c-font-MontserratLight);
 }
 
 .goodbionics-section-A h3 {
@@ -7,7 +7,7 @@
     line-height: 96px;
     margin: 30px 0;
     color: var(--c-primary);
-    font-family: var(--c-font-MontserratLight);
+
 }
 .goodbionics-section-A p {
     font-size: 25px;
@@ -15,41 +15,37 @@
     margin: 0;
     color: var(--c-primary);
     letter-spacing: 7.5px;
-    font-family: var(--c-font-MontserratLight);
+
 }
 
 .goodbionics-section-B p {
     font-size: 16px;
-    font-family: var(--c-font-MontserratLight);
+
     color: var(--c-primary);
 
 }
 .goodbionics-section-C h3{
     font-size: 45px;
-    font-family: var(--c-font-MontserratLight);
+
     color: var(--c-white);
 }
 .goodbionics-section-C p{
     font-size: 20px;
-    font-family: var(--c-font-MontserratLight);
     color: var(--c-white);
 }
 
 .goodbionics-section-D p{
     font-size: 16px;
-    font-family: var(--c-font-MontserratLight);
     color: var(--c-primary);
 }
 
 .goodbionics-section-E h3{
     font-size: 45px;
-    font-family: var(--c-font-MontserratLight);
     color: var(--c-white);
 }
 
 .goodbionics-section-E p{
     font-size: 16px;
-    font-family: var(--c-font-MontserratLight);
     color: var(--c-white);
 }
 
@@ -57,20 +53,17 @@
 
 .goodbionics-section-F p{
     font-size: 45px;
-    font-family: var(--c-font-MontserratLight);
     color: var(--c-white);
 }
 
 .goodbionics-section-G p{
     font-size: 16px;
-    font-family: var(--c-font-MontserratLight);
     color: var(--c-primary);
     margin-left: 15%;
 }
 
 .goodbionics-section-H p{
     font-size: 16px;
-    font-family: var(--c-font-MontserratLight);
     color: var(--c-primary);
     margin-left: 15%;
     margin-top: 17%;
@@ -85,38 +78,38 @@
     opacity: .5;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .cms-box-A {
         display: none;
     }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1299px) {
     .cms-box-B {
         display: none;
     }
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .cms-box-C {
         display: none;
     }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1299px) {
     .cms-box-D {
         display: none;
     }
 
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .cms-box-E {
         display: none;
     }
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1299px) {
     .cms-box-F {
         display: none;
     }

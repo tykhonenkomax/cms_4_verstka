@@ -288,6 +288,10 @@ a {
     --button-background: transparent;
 }
 
+.sf-button--outline, .sf-button--outline:hover {
+    --button-background: transparent;
+}
+
 .sf-button {
     --button-padding: var(--spacer-sm) var(--spacer-lg);
 }
