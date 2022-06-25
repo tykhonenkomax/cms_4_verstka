@@ -40,7 +40,7 @@
 }
 
 .goodbionics-section-E h3{
-    font-size: 45px;
+    font-size: 16px;
     color: var(--c-white);
 }
 
@@ -70,26 +70,41 @@
     width: 80%;
 }
 
-
-
-
-
 .opacity-50 {
     opacity: .5;
 }
 
-@media screen and (max-width: 1300px) {
-    .cms-box-A {
-        display: none;
-    }
+
+@media screen and (min-width: 1024px){
+  .cms-50-desktop{
+      flex: calc();
+  }
 }
 
-@media screen and (min-width: 1299px) {
-    .cms-box-B {
-        display: none;
-    }
+@media screen and (min-width: 640px) and (max-width: 1023px){
+
 
 }
+
+
+@media screen and (max-width: 639px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1300px) {
     .cms-box-C {

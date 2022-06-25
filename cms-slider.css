@@ -50,7 +50,7 @@
 
 .cms-slide .content {
     color: var(--c-white, #fff);
-    background-color: rgba(var(--_c-iprodens-primary-base, 0,149,219), 0.6);
+    background-color: transparent;
     position: absolute;
     left: -2rem;
     width: 100%;
