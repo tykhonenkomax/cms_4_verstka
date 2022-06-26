@@ -257,23 +257,23 @@ a {
     color: var(--c-light-variant);
     color: var(--button-color,var(--c-light-variant));
     background: var(--c-primary);
-    background: var(--button-background,var(--c-primary));
+    background: #ffffff;
     transition: background .8s;
     transition: var(--button-transition,background .8s);
     background-position: 50%;
     text-transform: uppercase;
-    text-transform: var(--button-text-transform,uppercase);
+    text-transform: var(--button-text-transform, uppercase);
     -webkit-text-decoration: var(--button-text-decoration);
     text-decoration: var(--button-text-decoration);
     cursor: pointer;
-    cursor: var(--button-cursor,pointer);
+    cursor: var(--button-cursor, pointer);
     border-radius: 0;
-    border-radius: var(--button-border-radius,0);
+    border-radius: var(--button-border-radius, 0);
     white-space: nowrap;
-    white-space: var(--button-wrap,nowrap);
+    white-space: var(--button-wrap, nowrap);
     font: var(--font-weight--semibold) var(--font-size--base)/1.2 var(--font-family--secondary);
-    font: var(--button-font,var(--button-font-weight,var(--font-weight--semibold)) var(--button-font-size,var(--font-size--base))/var(--button-font-line-height,1.2) var(--button-font-family,var(--font-family--secondary)));
-    border: var(--button-border,var(--button-border-style,solid) var(--button-border-color,var(--c-primary)));
+    font: var(--button-font,var(--button-font-weight, var(--font-weight--semibold)) var(--button-font-size, var(--font-size--base))/var(--button-font-line-height, 1.2) var(--button-font-family, var(--font-family--secondary)));
+    border: var(--button-border, var(--button-border-style, solid) var(--button-border-color, var(--c-primary)));
     border-width: 0;
     border-width: var(--button-border-width,0);
     --button-box-shadow-opacity: 0;
@@ -282,6 +282,7 @@ a {
 .sf-button--outline {
     --button-border-width: 1px;
     --button-color: var(--c-text);
+
 }
 
 .sf-button--outline, .sf-button--outline:hover {
