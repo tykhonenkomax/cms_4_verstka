@@ -273,7 +273,7 @@ a {
     white-space: var(--button-wrap, nowrap);
     font: var(--font-weight--semibold) var(--font-size--base)/1.2 var(--font-family--secondary);
     font: var(--button-font,var(--button-font-weight, var(--font-weight--semibold)) var(--button-font-size, var(--font-size--base))/var(--button-font-line-height, 1.2) var(--button-font-family, var(--font-family--secondary)));
-    border: var(--button-border, var(--button-border-style, solid) var(--button-border-color, var(--c-primary)));
+    border: var(--button-border, var(--c-white, solid) var(--button-border-color, var(--c-primary)));
     border-width: 0;
     border-width: var(--button-border-width,0);
     --button-box-shadow-opacity: 0;
